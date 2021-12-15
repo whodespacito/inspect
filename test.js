@@ -1,1 +1,3 @@
-alert("it worked perhaps??");
+function test() {
+  alert("it worked perhaps??");
+}
