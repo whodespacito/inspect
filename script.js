@@ -5,6 +5,6 @@ document.addEventListener("mousemove", (event) => {
 })
 document.addEventListener("keydown", (event) => {
   if (event.key == "\\") {
-    print(document.elementFromPoint(x, y))
+    console.log(document.elementFromPoint(x, y))
   }
 })
