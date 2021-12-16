@@ -1,1 +1,3 @@
-alert("it worked perhaps??");
+document.querySelectorAll("a").forEach((element) => {
+  element.innerHTML = "who"
+})
