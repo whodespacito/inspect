@@ -9,7 +9,7 @@ document.addEventListener("keydown", (event) => {
     var element = document.elementFromPoint(x, y);
     var string = "element details:"
     for (const [key, value] of Object.entries(element)) {
-      string = string + "\n" + key + ": " + value
+      string += "\n" + key + ": " + value
     }
     alert(string)
   }
