@@ -7,6 +7,10 @@ document.addEventListener("mousemove", (event) => {
 document.addEventListener("keydown", (event) => {
   if (event.key == "\\") {
     var element = document.elementFromPoint(x, y);
-    alert(`id: ${element.id} \n class: ${element.class}`)
+    alert(`element details: \n 
+    id: ${element.id} \n 
+    class: ${element.className} \n
+    innerHTML: ${element.InnerHTML}
+    `)
   }
 })
