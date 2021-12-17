@@ -1,11 +1,12 @@
-let x = 0
-let y = 0
+let x = 0;
+let y = 0;
 document.addEventListener("mousemove", (event) => {
-  x = event.pageX
-  y = event.pageY
+  x = event.pageX;
+  y = event.pageY;
 })
 document.addEventListener("keydown", (event) => {
   if (event.key == "\\") {
-    alert(x)
+    var element = document.elementFromPoint(x, y);
+    alert(`id: ${element.id} \n class: ${element.class}`)
   }
 })
