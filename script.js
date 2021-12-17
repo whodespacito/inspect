@@ -5,7 +5,8 @@ document.addEventListener("mousemove", (event) => {
   y = event.pageY;
 })
 document.addEventListener("keydown", (event) => {
-  if (event.key == "\\")
+  if (event.key == "\\" && event.altKey) {
   var element = document.elementFromPoint(x, y);
   alert(element)
+  }
 })
