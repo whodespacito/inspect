@@ -1,8 +1,8 @@
 let x = 0;
 let y = 0;
 document.addEventListener("mousemove", (event) => {
-  x = event.pageX;
-  y = event.pageY;
+  x = event.movementX;
+  y = event.movementY;
 })
 document.addEventListener("keydown", (event) => {
   if (event.key == "\\") {
