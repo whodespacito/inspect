@@ -7,10 +7,12 @@ document.addEventListener("mousemove", (event) => {
 document.addEventListener("keydown", (event) => {
   if (event.key == "\\" && event.altKey) {
     var element = document.elementFromPoint(x, y);
-    var string = "element details:"
-    for (const [key, value] of Object.entries(element)) {
-      string += "\n" + key + ": " + value
-    }
-    alert(string)
+    alert(
+    `element details:
+     id: ${element.id}
+     class: ${element.classByName}
+     innerHTML: ${element.innerHTML}
+    `
+    )
   }
 })
