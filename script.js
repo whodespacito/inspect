@@ -10,9 +10,11 @@ document.addEventListener("keydown", (event) => {
     alert(
     `element details:
      id: ${element.id}
-     class: ${element.classByName}
+     class: ${element.className}
      innerHTML: ${element.innerHTML}
+     tag: ${element.tagName}     
     `
     )
   }
 })
+alert("it probably go??)
