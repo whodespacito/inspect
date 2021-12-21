@@ -14,7 +14,7 @@ document.addEventListener("keydown", (event) => {
      innerHTML: ${element.innerHTML}
      tag: ${element.tagName}     
     `
-    )
+    );
   }
 })
-alert("it probably go??)
+alert("it probably go??);
