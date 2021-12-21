@@ -14,6 +14,6 @@ document.addEventListener("keydown", (event) => {
      innerHTML: ${element.innerHTML}
      tag: ${element.tagName}     
     `
-    );
+    )
   }
 })
