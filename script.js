@@ -11,8 +11,8 @@ document.addEventListener("keydown", (event) => {
     `element details:
      id: ${element.id}
      class: ${element.className}
-     innerHTML: ${element.innerHTML}
      tag: ${element.tagName}     
+     innerHTML: ${element.innerHTML}
     `
     )
   }
