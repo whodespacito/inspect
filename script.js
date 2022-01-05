@@ -14,7 +14,7 @@ document.addEventListener("keydown", (event) => {
      tag: ${element.tagName}     
      innerHTML: ${element.innerHTML}
     `
-      if (window.location.href === "https://www.blooket.com/play/fishing") {
+      if (window.location.href === "https://www.blooket.com/play") {
         var button = document.createElement("p")
         button.innerHTML = `
         element details:
