@@ -14,16 +14,6 @@ document.addEventListener("keydown", (event) => {
      tag: ${element.tagName}     
      innerHTML: ${element.innerHTML}
     `
-      if (window.location.href === "https://www.blooket.com/play") {
-        var button = document.createElement("p")
-        button.innerHTML = `
-        element details:
-        id: ${element.id}
-        class: ${element.className}
-        tag: ${element.tagName}
-        innerHTML: ${element.innerHTML}
-        `
-      }
     )
   }
 })
