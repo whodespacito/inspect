@@ -1,9 +1,9 @@
 window.main = function() {
-  let x = 0;
-  let y = 0;
+   window.x = 0;
+  window.y = 0;
   document.addEventListener("mousemove", (event) => {
-    x = event.pageX;
-    y = event.pageY;
+    window.x = event.pageX;
+    window.y = event.pageY;
   })
   document.addEventListener("keydown", (event) => {
     if (event.key == "\\" && event.altKey) {
@@ -21,11 +21,11 @@ window.main = function() {
 }
 //cause blooket broke alert()
 window.alt = function() {
-  let x = 0;
-  let y = 0;
+   window.x = 0;
+  window.y = 0;
   document.addEventListener("mousemove", (event) => {
-    x = event.pageX;
-    y = event.pageY;
+    window.x = event.pageX;
+    window.y = event.pageY;
   })
   document.addEventListener("keydown", (event) => {
     if (event.key == "\\" && event.altKey) {
